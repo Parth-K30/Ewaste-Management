@@ -59,7 +59,7 @@ const Header = () => {
             <li><Link to='/about'>About</Link></li>
             <li><Link to="/products">{isAdmin?'Products':'Shop'}</Link></li>
 
-            <li><Link to='/contact'>Contact</Link></li>
+            <li><Link to='/contact'>Feedback</Link></li>
 
             {isAdmin && adminRouter()}
             {
